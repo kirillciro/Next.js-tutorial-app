@@ -8,7 +8,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning className={`${inter.className} antialiased`}>
+      <body
+        suppressHydrationWarning
+        className={`${inter.className} antialiased`}
+      >
         {children}
       </body>
     </html>
